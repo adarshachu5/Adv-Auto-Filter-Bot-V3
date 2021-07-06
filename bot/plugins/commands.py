@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = @MLM_MOVIE_STORE,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ MORE MOVIES ⭕️ 🎭', url="https://t.me/MLM_MOVIE_STORE"
                                 )
                         ]
                     ]
@@ -50,14 +50,14 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = @MLM_MOVIE_STORE,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ MORE MOVIES ⭕️ 🎭', url="IS https://t.me/MLM_MOVIE_STORE"
                                 )
                         ]
                     ]
@@ -69,14 +69,14 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption = @MLM_MOVIE_STORE,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ⭕️ MORE MOVIES ⭕️ 🎭', url="https://t.me/MLM_MOVIE_STORE"
                                 )
                         ]
                     ]
