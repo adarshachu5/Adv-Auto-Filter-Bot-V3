@@ -1,5 +1,5 @@
 {
-    "name": "UFS Auto Filter Bot V3",
+    "name": "Adv-Auto-Filter-Bot-V3",
     "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
     "logo": "https://telegra.ph/file/4c58e64ecd77d1b641195.jpg",
     "keywords": [
@@ -7,7 +7,7 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/jinspalakkattu",
+    "website": "https://github.com/arjunsangu",
     "repository": "https://github.com/jinspalakkattu/UFS-Adv-Auto-Filter-Bot-V3",
     "success_url": "https://t.me/joinchat/7qlEga5lO0o2MTg0",
     "env": {
