@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = @MLM_MOVIE_STORE,
+                caption = file_name,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
