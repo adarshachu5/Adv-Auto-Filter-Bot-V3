@@ -69,7 +69,7 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = @MLM_MOVIE_STORE,
+                caption = file_name,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
